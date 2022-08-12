@@ -8,7 +8,7 @@
 		"format:check": "prettier --check ./client",
 		"spell-check": "cspell  './**'",
 		"lint:ls": "ls-lint",
-		"lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./ ",
+		"lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc --fix ./*.md",
 		"lint:css": "stylelint",
 		"lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
 		"validate:html": "html-validate",

@@ -4,7 +4,7 @@ Shopping basket
 
 ## Must-Haves
 
->As a user I want to
+> As a user I want to
 
 - Create a list by choosing items from a catalogue
 - See all the items in my basket

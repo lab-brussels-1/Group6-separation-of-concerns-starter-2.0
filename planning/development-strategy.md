@@ -1,7 +1,8 @@
 # Development Strategy
 
-We have decided to develop a page for users to do shopping.
-In the page a user will be able to chose items from a catalogue and add them to his/her shopping basket.
+We have decided to develop a page for users to do shopping. In the page a user
+will be able to chose items from a catalogue and add them to his/her shopping
+basket.
 
 ## 0. Setup
 
