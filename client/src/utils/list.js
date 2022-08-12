@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 // eslint-disable-next-line boundaries/element-types
 import { catalogue, storage } from '../../data/state.js';
 

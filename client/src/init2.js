@@ -1,3 +1,4 @@
+/* eslint-disable boundaries/no-unknown-files */
 import { BUTTON_ID } from '../data/constants.js';
 import { listenerClick } from './listeners/listener.js';
 
