@@ -1,15 +1,15 @@
 @import url('./other-file.css');
 
 .main-container {
-    background-image: url('https://img.freepik.com/premium-photo/donuts-doughnuts-different-colors-blue-background-with-multi-colored-festive-sugar-sprinkles-holiday-sweets-baking-children-sugar-concept_90380-819.jpg');
-    background-size: cover;
-    width: 1200px;
+	width: 1200px;
 	height: 900px;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
 	border-radius: 30px;
+	background-size: cover;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-image: url('https://img.freepik.com/premium-photo/donuts-doughnuts-different-colors-blue-background-with-multi-colored-festive-sugar-sprinkles-holiday-sweets-baking-children-sugar-concept_90380-819.jpg');
 }
 
 .header {
@@ -103,14 +103,14 @@
 }
 
 .products-list {
-   height: 400px;
-   width: auto;
+	height: 400px;
+	width: auto;
 }
 
 .payment-methods {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
 }
 
 button {
