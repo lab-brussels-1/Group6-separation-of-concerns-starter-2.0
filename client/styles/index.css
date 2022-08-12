@@ -1,1 +1,119 @@
 @import url('./other-file.css');
+
+.main-container {
+	width: 1200px;
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color: rgb(90, 161, 161);
+	border-radius: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+	width: 1200px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(171, 171, 235);
+	border-radius: 20px;
+}
+
+.logo {
+	width: 49%;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.user-account {
+	width: 49%;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(11, 207, 241);
+	margin-top: 10px;
+}
+
+.account-buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+.motto {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 40px;
+	background-color: rgb(6, 228, 172);
+}
+
+.catalogue-and-summary {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 500px;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.catalogue {
+	width: 70%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	background-color: white;
+	margin-top: 10px;
+	padding-left: 50px;
+}
+
+.pictures {
+	overflow-y: scroll;
+}
+
+.order-summary {
+	width: 23%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 15px;
+	background-color: rgb(250, 246, 8);
+}
+
+.total-to-pay td {
+	padding: 15px;
+}
+
+.footer {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(198, 13, 245);
+	margin-top: auto;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+}
