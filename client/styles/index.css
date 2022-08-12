@@ -1,12 +1,13 @@
 @import url('./other-file.css');
 
 .main-container {
-	width: 1200px;
+    background-image: url('https://img.freepik.com/premium-photo/donuts-doughnuts-different-colors-blue-background-with-multi-colored-festive-sugar-sprinkles-holiday-sweets-baking-children-sugar-concept_90380-819.jpg');
+    background-size: cover;
+    width: 1200px;
 	height: 900px;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	background-color: rgb(90, 161, 161);
 	border-radius: 30px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -16,32 +17,34 @@
 	height: 200px;
 	display: flex;
 	flex-direction: row;
-	background-color: rgb(171, 171, 235);
 	border-radius: 20px;
 }
 
 .logo {
-	width: 49%;
+	width: 65%;
 	height: 180px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-color: white;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-left: 10px;
 }
 
+.logo-text {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
 .user-account {
-	width: 49%;
+	width: 35%;
 	height: 180px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-color: rgb(11, 207, 241);
 	margin-top: 10px;
 }
 
@@ -58,7 +61,8 @@
 	justify-content: center;
 	text-align: center;
 	font-size: 40px;
-	background-color: rgb(6, 228, 172);
+	background-color: rgb(28, 48, 43);
+	color: aliceblue;
 }
 
 .catalogue-and-summary {
@@ -77,7 +81,6 @@
 	flex-direction: column;
 	align-items: left;
 	justify-content: center;
-	background-color: white;
 	margin-top: 10px;
 	padding-left: 50px;
 }
@@ -96,11 +99,48 @@
 	margin-top: 10px;
 	margin-left: 10px;
 	padding-left: 15px;
-	background-color: rgb(250, 246, 8);
+	background-color: rgb(238, 204, 14);
 }
 
-.total-to-pay td {
-	padding: 15px;
+.products-list {
+   height: 400px;
+   width: auto;
+}
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+button {
+	background-color: #4e4caf;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #4d9250;
+	color: rgb(245, 245, 231);
+}
+
+.account-buttons button {
+	background-color: #328d58;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+	font-size: 16px;
+}
+
+.account-buttons button:hover {
+	background-color: #16e616;
+	color: rgb(14, 14, 12);
 }
 
 .footer {
@@ -111,9 +151,8 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-color: rgb(198, 13, 245);
+	background-color: rgb(7, 182, 182);
 	margin-top: auto;
 	border-radius: 5px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
+	font-size: 28px;
 }
