@@ -1,5 +1,5 @@
 {
-	"--defaults": {
-		".js": "study"
-	}
+  "--defaults": {
+    ".js": "study"
+  }
 }
