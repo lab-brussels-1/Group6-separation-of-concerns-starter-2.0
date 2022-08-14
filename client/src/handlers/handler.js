@@ -1,5 +1,9 @@
 /* eslint-disable no-tabs */
 /* eslint-disable indent */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-multi-assign */
+/* eslint-disable no-restricted-globals */
+
 import { addToList, totalCalculation } from '../utils/list.js';
 import { createList } from '../components/component.js';
 import { storage } from '../../data/state.js';
@@ -26,11 +30,7 @@ export const addItem = (event) => {
   output.innerText = 'Total €'.concat(totalToPay);
 };
 
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-multi-assign */
-/* eslint-disable no-restricted-globals */
 export const removeIt = () => {
   const resetting = document.getElementById(BASKET_ID).innerHTML = 'Basket is empty!';
   const resetTotal = document.getElementById(TOTAL_ID).innerHTML = '';
-  
 };
