@@ -9,7 +9,6 @@ The members of **Group-6** are:
 
 - [MMikhailova](https://github.com/MMikhailova)
 - [Cristobal lopez](https://github.com/cristobal-lopez)
-- [Zerubabel](https://github.com/zerubabel4)
 
 ## Project goals
 
