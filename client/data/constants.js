@@ -7,6 +7,7 @@ export const EVENT_ID = 'click'; // for the reset click event
 
 export const BASKET_ID = 'products-list';
 export const BUTTON_ID = 'resetButton'; // for the reset button
+export const TOTAL_ID = 'total';
 
 // classes
 

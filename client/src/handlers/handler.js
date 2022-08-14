@@ -3,7 +3,7 @@
 import { addToList, totalCalculation } from '../utils/list.js';
 import { createList } from '../components/component.js';
 import { storage } from '../../data/state.js';
-import { BASKET_ID, TOTAL_OUTPUT } from '../../data/constants.js';
+import { BASKET_ID, TOTAL_OUTPUT, TOTAL_ID } from '../../data/constants.js';
 
 export const addItem = (event) => {
   // Getting name and chosen amount from 'clicked' item (event.target)
@@ -24,4 +24,13 @@ export const addItem = (event) => {
   const output = document.querySelector(TOTAL_OUTPUT).firstElementChild;
   const totalToPay = totalCalculation(newList);
   output.innerText = 'Total €'.concat(totalToPay);
+};
+
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-multi-assign */
+/* eslint-disable no-restricted-globals */
+export const removeIt = () => {
+  const resetting = document.getElementById(BASKET_ID).innerHTML = 'Basket is empty!';
+  const resetTotal = document.getElementById(TOTAL_ID).innerHTML = '';
+  
 };
