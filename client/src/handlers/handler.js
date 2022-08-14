@@ -33,4 +33,7 @@ export const addItem = (event) => {
 export const removeIt = () => {
   const resetting = document.getElementById(BASKET_ID).innerHTML = 'Basket is empty!';
   const resetTotal = document.getElementById(TOTAL_ID).innerHTML = '';
+  setTimeout(() => {
+    location.reload(1);
+  }, 0);
 };
