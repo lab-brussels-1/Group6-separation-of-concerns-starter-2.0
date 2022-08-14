@@ -3,6 +3,8 @@
 In this repository our team works on a small program to practice `separation-of-concerns`.  
 The program allows a user to make and to edit a list of items.
 
+![Page](media/screenshot.png)
+
 The members of **Group-6** are:
 
 - [MMikhailova](https://github.com/MMikhailova)
